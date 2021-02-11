@@ -23,7 +23,6 @@ h2 {
 
 body {
   font-size: 1em;
-  font-family: 'Roboto', sans-serif;
   background: #e6e6e6;
 
 }
@@ -34,7 +33,7 @@ body {
   background-color: #0c0c0c;
   padding: 15px;
   text-align: center;
-  
+
 }
 
 #area-logo,
