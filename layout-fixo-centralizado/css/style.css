@@ -9,9 +9,6 @@ h2 {
   color: #d7b600;
 }
 
-
-
-
 .white {
   color: white;
 }
@@ -37,6 +34,7 @@ body {
   background-color: #0c0c0c;
   padding: 15px;
   text-align: center;
+  
 }
 
 #area-logo,
@@ -143,7 +141,6 @@ a:hover {
 
 /* Forms */
 
-fieldset {}
 
 label {
   font-weight: bold;
