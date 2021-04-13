@@ -1,0 +1,71 @@
+/* Area Contact*/
+
+.area-contact {
+    
+    margin: auto;
+
+}
+
+
+#main-area {
+
+    width: 900px;
+    margin: auto;
+    
+}
+
+.form-content {
+    background: rgb(240 240 240);
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    width: 250px;
+    float: left;
+}
+
+
+/* Map */
+
+.location-map {
+    box-shadow: 0px 2px 14px -3px rgb(0 0 0 / 75%);
+    width: 500px;
+}
+
+/* Form */
+
+
+label {
+    font-weight: bold;
+
+}
+
+textarea {
+    max-width: 200px;
+    max-height: 180px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #424242;
+}
+
+.button:hover {
+    background-color: #424242;
+    color: white;
+}
