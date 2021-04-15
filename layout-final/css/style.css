@@ -1,4 +1,5 @@
 /*Formatações Gerais*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
 
 h1 {
   color: #4e4e4e;
@@ -24,6 +25,7 @@ h2 {
 body {
   font-size: 1em;
   background: #e6e6e6;
+  font-family: 'Nunito', sans-serif;
 
 }
 
