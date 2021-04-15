@@ -39,12 +39,12 @@ body {
 }
 
 #area-logo,
-#area-menu {
+nav {
   padding: 10px;
 
 }
 
-#main-area {
+#main {
 
     width: 900px;
     margin: 0;
