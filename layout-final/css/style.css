@@ -64,7 +64,7 @@ main {
   background: white;
 }
 
-.side-content {
+aside {
   background: white;
   padding: 10px;
   margin-bottom: 20px;
@@ -77,7 +77,7 @@ main {
   float: left;
 }
 
-#footer {
+footer {
   clear: both;
   text-align: center;
   padding: 15px;
@@ -114,26 +114,26 @@ a:hover {
 
 /* side-bar */
 
-#side-content {
+aside {
   width: 250px;
   float: left;
 }
 
-.side-content a:link,
-.side-content a:visited {
+aside a:link,
+aside a:visited {
   color: #fff;
   background: #000;
 
 }
 
-.side-content a:hover {
+aside a:hover {
 
   background: rgb(22, 22, 22);
   color: #993a3a;
   padding-left: 20px;
 }
 
-.side-content a {
+aside a {
   display: block;
   margin: 05px 0px;
   border-radius: 15px 15px;
