@@ -1,0 +1,14 @@
+/*Import CSS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+@import "reset.css";
+@import "../layout/header.css";
+@import "../layout/main.css";
+@import "../layout/nav.css";
+@import "../components/button.css";
+@import "../components/picture.css";
+@import "../layout/article.css";
+@import "../layout/aside.css";
+@import "../layout/footer.css";
+@import "../state/";
+@import "theme";
