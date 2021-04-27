@@ -1,0 +1,43 @@
+body {
+    font-size: 1em;
+    background: #e6e6e6;
+    font-family: 'Nunito', sans-serif;
+  
+  }
+
+  li a {
+    text-decoration: none;
+    border: solid #5D8512;
+  }
+  
+  a:link,
+  a:Visited {
+    color: #000;
+  
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    color: #d7b600;
+  }
+  
+  .span--white {
+    color: white;
+  }
+  
+  .span--green {
+    color: #5D8512;
+  }
+  
+  .span--red {
+    color: #F55154;
+  }
+  
