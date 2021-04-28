@@ -3,99 +3,104 @@
   <head>
     <title>La Creditas Restaurant</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/base/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
   </head>
   <body>
-    <header id="header">
-      <div id="area-logo">
-        <h1> <span class="green">La</span><span class="white">Creditas</span><span class="red">Restaurant</span> </h1>
+    <header class="header">
+      <div class="header__logo">
+        <h1>
+          <span class="span--green">La</span>
+          <span class="span--white">Creditas</span>
+          <span class="span--red">Restaurant</span>
+        </h1>
       </div>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="individual.html">individual</a></li>
-          <li><a href="combo-premium.html">Combo Premium</a></li>
-          <li><a href="who-we-are.html">Quem Somos</a></li>
-          <li><a href="contact.html">Contato</a></li>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="individual.html">individual</a></li>
+          <li class="nav__item"><a class="nav__link" href="combo-premium.html">Combo Premium</a></li>
+          <li class="nav__item"><a class="nav__link" href="who-we-are.html">Quem Somos</a></li>
+          <li class="nav__item"><a class="nav__link" href="contact.html">Contato</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section>
-        <div class="post">
-          <h2>BURRITOS</h2>
+    <main class="main">
+      <section class="section">
+        <article class="article">
+          <h2 class="article_title">BURRITOS</h2>
 
-          <picture>
+          <picture class="article__picture">
+
             <source srcset="image/image3.png" />
             <img src="/image/imag3.png" alt="prato de comida mexicana" />
           </picture>
 
-          <p>
+          <p class="article__desc">
             Burrito recheado com alface, pico de gallo, sour cream, queijo e
             guacamole. Acompanha salsa da casa.
           </p>
-          <a href="#">Leia Mais</a>
-        </div>
+          <a  class="article__link" href="#">Leia Mais</a>
+        </article>
 
-        <div class="post">
-          <h2>CRUNCH TACOS</h2>
+        <article class="article">
+          <h2 class="article__title">CRUNCH TACOS</h2>
 
-          <picture>
+          <picture class="article__picture">
             <source srcset="image/image4.png" />
             <img src="/image/image4.png" alt="prato de comida mexicana" />
           </picture>
-          <p> 3 deliciosos tacos montados na tortilla crocante de milho, com queijo, alface, pico de gallo e servidos com a nossa guacamole. </p>
-          <a href="">Leia Mais</a>
-        </div>
+          <p class="article__desc"> 3 deliciosos tacos montados na tortilla crocante de milho, com queijo, alface, pico de gallo e servidos com a nossa guacamole. </p>
+          <a class="article__link" href="#">Leia Mais</a>
+        </article>
 
-        <div class="post">
-          <h2>TIJUANA TACOS</h2>
+        <article class="article">
+          <h2 class="article__title">TIJUANA TACOS</h2>
 
-          <picture>
+          <picture class="article__picture">
             <source srcset="image/image5.jpg" />
             <img src="/image/image5.jpg" alt="prato de comida mexicana" />
           </picture>
 
-          <p>
+          <p class="article__desc">
             3 tacos recheados com carne grelhada, bacon, queijo, onion crisps e
             pico de gallo. Acompanha nossa maionese.
           </p>
-          <a href="#">Leia Mais</a>
-        </div>
+          <a class="article__link" href="#">Leia Mais</a>
+        </article>
 
-        <div class="post">
-          <h2>QUESADILLAS</h2>
+        <article class="article">
+          <h2 class="article__title">QUESADILLAS</h2>
 
-          <picture>
+          <picture class="article__picture">
             <source srcset="image/image.png" />
             <img src="/image/image.png" alt="prato de comida mexicana" />
           </picture>
 
-          <p>
+          <p class="article__desc">
             Nossas incomparáveis tortillas caseiras tostadas e recheadas com
             queijo derretido e pico de gallo. Acompanha guacamole.
           </p>
-          <a href="#">Leia Mais</a>
-        </div>
+          <a class="article__link" href="#">Leia Mais</a>
+        </article>
       </section>
     </main>
 
-    <aside>
-      <h3>Individuais</h3>
+    <aside class="aside">
+      <h3 class="aside__title">Individuais</h3>
 
-      <nav>
-        <ul>
-          <li><a href="quesadillas.html">Quesadillas</a></li>
-          <li><a href="burritos.html">Burritos</a></li>
-          <li><a href="crunch-tacos.html">Crunch Tacos</a></li>
-          <li><a href="tijuana-tacos.html">Tijuana Tacos</a></li>
+      <nav class="aside__nav">
+        <ul class="aside__list">
+          <li class="aside__item"><a  class="aside__link" href="burritos.html">Burritos</a></li>
+          <li class="aside__item"><a  class="aside__link" href="crunch-tacos.html">Crunch Tacos</a></li>
+          <li class="aside__item"><a  class="aside__link" href="tijuana-tacos.html">Tijuana Tacos</a></li>
+          <li class="aside__item"><a  class="aside__link" href="quesadillas.html">Quesadillas</a></li>
         </ul>
       </nav>
     </aside>
 
-    <footer>Todos os direitos reservados</footer>
+    <footer class="footer">Todos os direitos reservados</footer>
   </body>
 </html>
