@@ -1,7 +1,7 @@
-footer {
-    clear: both;
+.footer {
     text-align: center;
-    padding: 15px;
-    background: #ccc;
-  
+    padding: 80px;
+    min-width: 100vw;
+    background-color: #48494a;
+    color: #fff;
   }
