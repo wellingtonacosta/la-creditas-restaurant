@@ -1,14 +1,18 @@
 main {
-
-    width: 900px;
-    margin: 0;
-
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  /* flex-direction: column; */
+  width: 100%;
+  margin: auto;
+  background-color: #212121;
 }
 
-#post-area {
-    width: 650px;
-    margin: auto;
-    float: right;
-  
-  }
-  
+.main__title {
+  justify-content: center;
+  text-align: center;
+}
+
+.main--contact {
+  background-color: #212121;
+}

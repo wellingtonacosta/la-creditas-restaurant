@@ -1,34 +1,36 @@
 aside {
-    width: 250px;
-    float: left;
-  }
-  
-  aside a:link,
-  aside a:visited {
-    color: #fff;
-    background: #000;
-  
-  }
-  
-  aside a:hover {
-  
-    background: rgb(22, 22, 22);
-    color: #993a3a;
-    padding-left: 20px;
-  }
-  
-  aside a {
-    display: block;
-    margin: 05px 0px;
-    border-radius: 15px 15px;
-    padding: 8px 12px;
-  }
+  flex-direction: column;
+  display: flex;
+  order: -1;
+  width: 350px;
+  padding: 10px;
+  background-color: #303030;
+}
 
-  aside {
-    background: white;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 230px;
-    float: left;
-  }
+aside a:link,
+aside a:visited {
+  color: #fff;
+}
 
+aside a:hover {
+  background: rgb(22, 22, 22);
+  color: #993a3a;
+  padding-left: 20px;
+}
+
+aside a {
+  display: block;
+  margin: 05px 0px;
+  border-radius: 15px 15px;
+  padding: 8px 12px;
+}
+
+.aside__nav {
+  margin: 0 auto;
+}
+
+.aside__title {
+  color: #f55154;
+  height: 50px;
+  text-align: center;
+}
