@@ -7,21 +7,21 @@ aside {
   background-color: #303030;
 }
 
-aside a:link,
-aside a:visited {
+.aside__link:link,
+.aside__link:visited {
   color: #fff;
 }
 
-aside a:hover {
+.aside__link:hover {
   background: rgb(22, 22, 22);
   color: #993a3a;
   padding-left: 20px;
+  text-decoration: none;
 }
 
-aside a {
+.aside__link {
   display: block;
   margin: 05px 0px;
-  border-radius: 15px 15px;
   padding: 8px 12px;
 }
 

@@ -1,18 +1,17 @@
 .header {
-    background-color: #212121;
-    padding: 15px;
-    text-align: center;
-    min-width: 100vw
-  
-  }
+  background-color: #212121;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
 
 .header a:link,
-.header a:Visited {
+.header a:visited {
   color: rgb(255, 255, 255);
   padding: 8px 12px;
 }
 
-.header  a:hover {
+.header a:hover {
   color: #993a3a;
   background: rgb(22, 22, 22);
   text-decoration: none;
@@ -20,5 +19,16 @@
 
 .header__logo {
   padding: 10px;
+}
 
+.span--white {
+  color: white;
+}
+
+.span--green {
+  color: #5d8512;
+}
+
+.span--red {
+  color: #f55154;
 }
