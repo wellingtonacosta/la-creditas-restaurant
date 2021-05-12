@@ -2,8 +2,8 @@ aside {
   flex-direction: column;
   display: flex;
   order: -1;
-  width: 350px;
-  padding: 10px;
+  width: 21.875em;
+  padding: 0.625em;
   background-color: #303030;
 }
 
@@ -15,14 +15,14 @@ aside {
 .aside__link:hover {
   background: rgb(22, 22, 22);
   color: #993a3a;
-  padding-left: 20px;
+  padding-left: 1.25em;
   text-decoration: none;
 }
 
 .aside__link {
   display: block;
-  margin: 05px 0px;
-  padding: 8px 12px;
+  margin: 0.3125em 0em;
+  padding: 0.5em 0.75em;
 }
 
 .aside__nav {
@@ -31,6 +31,6 @@ aside {
 
 .aside__title {
   color: #f55154;
-  height: 50px;
+  height: 3.125em;
   text-align: center;
 }

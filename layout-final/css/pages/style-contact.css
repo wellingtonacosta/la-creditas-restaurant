@@ -12,17 +12,17 @@ body {
 
 .aside__form {
   background: #303030;
-  border: 2px solid #ccc;
-  padding: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  border: 0.125em solid #ccc;
+  padding: 0.625em;
+  margin-right: 0.625em;
+  margin-left: 0.625em;
 }
 
 /* Map */
 
 .location-map {
-  box-shadow: 0px 2px 14px -3px rgb(0 0 0 / 75%);
-  width: 500px;
+  box-shadow: 0em 0.125em 0.875em --0.1875em rgb(0 0 0 / 75%);
+  width: 31.25em;
 }
 
 /* Form */
@@ -32,19 +32,19 @@ label {
 }
 
 textarea {
-  max-width: 200px;
-  max-height: 180px;
+  max-width: 13.5em;
+  max-height: 11.25em;
 }
 
 .button {
   border: none;
   color: white;
-  padding: 16px 75px;
+  padding: 1em 4.000em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1;
+  margin: 0.25em 0.125em;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -52,7 +52,7 @@ textarea {
 .button {
   background-color: white;
   color: black;
-  border: 2px solid #424242;
+  border: 0.125em solid #424242;
 }
 
 .button:hover {
@@ -66,7 +66,7 @@ textarea {
   margin: auto;
 }
 
-.form--label{
+.form--label {
   margin: auto;
-  width: 205px;
+  width: 12.8125em;
 }
