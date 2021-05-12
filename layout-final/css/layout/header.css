@@ -9,6 +9,7 @@
 .header a:visited {
   color: rgb(255, 255, 255);
   padding: 0.5em 0.75em;
+  transition-duration: 0.4s;
 }
 
 .header a:hover {

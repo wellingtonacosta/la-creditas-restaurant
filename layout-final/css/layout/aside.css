@@ -10,6 +10,7 @@ aside {
 .aside__link:link,
 .aside__link:visited {
   color: #fff;
+  transition-duration: 0.4s;
 }
 
 .aside__link:hover {
