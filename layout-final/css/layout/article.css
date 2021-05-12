@@ -13,7 +13,7 @@ picture {
   width: 50%;
 }
 
-.article:nth-child(odd) {
+.article--home:nth-child(odd), .article--individual:nth-child(odd), .article--combo-premium:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
@@ -21,6 +21,3 @@ picture {
   padding: 5em;
 }
 
-.title--who-we-are {
-  order: -1;
-}
