@@ -17,6 +17,7 @@ button {
 }
 
 body {
+  overflow-x: hidden;
   background: #ffffff;
   /* display: flex; */
   flex-wrap: wrap;
