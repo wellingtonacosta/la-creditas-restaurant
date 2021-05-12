@@ -2,27 +2,28 @@ aside {
   flex-direction: column;
   display: flex;
   order: -1;
-  width: 350px;
-  padding: 10px;
+  width: 21.875em;
+  padding: 0.625em;
   background-color: #303030;
 }
 
-aside a:link,
-aside a:visited {
+.aside__link:link,
+.aside__link:visited {
   color: #fff;
+  transition-duration: 0.4s;
 }
 
-aside a:hover {
+.aside__link:hover {
   background: rgb(22, 22, 22);
   color: #993a3a;
-  padding-left: 20px;
+  padding-left: 1.25em;
+  text-decoration: none;
 }
 
-aside a {
+.aside__link {
   display: block;
-  margin: 05px 0px;
-  border-radius: 15px 15px;
-  padding: 8px 12px;
+  margin: 0.3125em 0em;
+  padding: 0.5em 0.75em;
 }
 
 .aside__nav {
@@ -31,6 +32,6 @@ aside a {
 
 .aside__title {
   color: #f55154;
-  height: 50px;
+  height: 3.125em;
   text-align: center;
 }

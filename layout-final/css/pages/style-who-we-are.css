@@ -1,0 +1,62 @@
+.article--who-we-are {
+  flex-direction: column;
+  align-items: end;
+}
+
+.title--who-we-are {
+  order: -1;
+}
+
+.picture--who-we-are {
+  margin: 2.9em 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  nav {
+    padding: 0.625em;
+    font-size: 1em;
+  }
+  .article {
+    width: 100%;
+    margin: 1.25em 0em 1.25em 0em;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .article {
+      width: 100%;
+    }
+
+    .desc--who-we-are {
+      font-size: 1.25em;
+      width: 90%;
+    }
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .article {
+      width: 100%;
+    }
+
+    nav {
+      padding: 0.625em;
+      font-size: 1em;
+    }
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .nav {
+    padding: 0.625em;
+    font-size: 1.5em;
+  }
+  .article {
+    width: 100%;
+  }
+}

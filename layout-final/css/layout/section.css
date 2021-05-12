@@ -1,8 +1,6 @@
 section.section {
-    margin: auto;
-  max-width: 1200px;
-  padding-left: 50px;
+  margin: auto;
+  max-width: 75em;
+  padding: 0em 3.125em;
   background-color: #212121;
 }
-
-

@@ -1,0 +1,26 @@
+li a {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a:link,
+  a:visited {
+    color: #ffffff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    color: #f55154;
+  }
