@@ -9,15 +9,16 @@
 }
 
 .article div,
-picture {
+.article__picture {
   width: 50%;
 }
 
-.article--home:nth-child(odd), .article--individual:nth-child(odd), .article--combo-premium:nth-child(odd) {
+.article--home:nth-child(odd),
+.article--individual:nth-child(odd),
+.article--combo-premium:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
 .article > div:first-child {
   padding: 5em;
 }
-
