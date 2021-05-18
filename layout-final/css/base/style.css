@@ -15,7 +15,7 @@
 @import "../layout/section.css";
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 1272.99px) {
+@media (max-width: 1200px) {
   nav {
     font-size: 0.5em;
   }
@@ -37,11 +37,23 @@
   }
 
   .article__picture {
-    width: 55%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .article:nth-child(odd),
+  .article {
+    flex-direction: column;
+  }
+
+  .article div,
+  .article picture {
+    width: 100%;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .article,
   .article:nth-child(odd) {
     flex-direction: column;
@@ -49,10 +61,6 @@
   }
   .article > div:first-child {
     padding: 10px;
-  }
-  .article div,
-  picture {
-    width: 100%;
   }
 
   /* menu toggle */
@@ -86,7 +94,7 @@
   }
 
   nav {
-    transform: translateX(-101%);
+    transform: translateX(-150%);
     transition: 0.5s;
   }
 
@@ -94,13 +102,21 @@
     transform: translateX(0);
   }
 
+  nav ul {
+    flex-wrap: wrap;
+  }
   nav ul li {
     list-style: none;
     margin-bottom: 10px;
   }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   nav {
     font-size: 0;
   }
@@ -112,7 +128,7 @@
     padding: 10px;
   }
   .article div,
-  picture {
+  .article picture {
     width: 100%;
   }
 }
