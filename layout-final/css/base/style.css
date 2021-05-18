@@ -14,42 +14,12 @@
 @import "theme";
 @import "../layout/section.css";
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .nav__list {
-    font-size: x-small;
-  }
-  .article,
-  .article:nth-child(odd) {
-    flex-direction: column;
-  }
-  .article > div:first-child {
-    padding: 10px;
-  }
-  .article div,
-  picture {
-    width: 100%;
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 799.99px) {
-  .article,
-  .article:nth-child(odd) {
-    flex-direction: column;
-    margin: 2.25em 0em 2.25em 0em;
-  }
-  .article > div:first-child {
-    padding: 10px;
-  }
-  .article div,
-  picture {
-    width: 100%;
-  }
-}
-
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 800px) and (max-width: 991.98px) {
+@media (max-width: 1272.99px) {
+  nav {
+    font-size: 0.5em;
+  }
+
   article > div:first-child {
     padding: 3em;
   }
@@ -70,11 +40,79 @@
     width: 55%;
   }
 }
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .article,
+  .article:nth-child(odd) {
+    flex-direction: column;
+    margin: 2.25em 0em 2.25em 0em;
+  }
+  .article > div:first-child {
+    padding: 10px;
+  }
+  .article div,
+  picture {
+    width: 100%;
+  }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* menu toggle */
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 30px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .hamburger.open span.bar:first-of-type {
+    transform: rotate(45deg) translate(4px, 10px);
+  }
+
+  .hamburger.open span.bar:last-of-type {
+    transform: rotate(-45deg) translate(4px, -10px);
+  }
+
+  .hamburger.open span.bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .bar {
+    height: 5px;
+    width: 30px;
+    background: white;
+    transition: 0.5s;
+  }
+
+  nav {
+    transform: translateX(-101%);
+    transition: 0.5s;
+  }
+
+  nav.open {
+    transform: translateX(0);
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
 }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1201px) {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  nav {
+    font-size: 0;
+  }
+  .article,
+  .article:nth-child(odd) {
+    flex-direction: column;
+  }
+  .article > div:first-child {
+    padding: 10px;
+  }
+  .article div,
+  picture {
+    width: 100%;
+  }
 }
