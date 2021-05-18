@@ -1,4 +1,7 @@
 nav {
+  justify-content: space-around;
+  display: flex;
+  align-items: baseline;
   padding: 0.625em;
 }
 

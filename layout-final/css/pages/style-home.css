@@ -2,3 +2,24 @@
   margin: auto;
   width: 100vw;
 }
+
+body,
+html {
+  height: 100%;
+}
+
+.main__title {
+  margin-top: 1em;
+}
+
+.header__subtitle {
+  display: flex;
+}
+
+.header__subtitle h2 {
+  color: #fff;
+  font-size: 6em;
+  font-weight: normal;
+  margin: auto;
+  max-width: 1000px;
+}
