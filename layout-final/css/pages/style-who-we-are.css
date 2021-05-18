@@ -1,6 +1,7 @@
 .article--who-we-are {
-  flex-direction: column;
+  flex-direction: row;
   align-items: end;
+  margin-top: 5.5em;
 }
 
 .title--who-we-are {
@@ -8,7 +9,7 @@
 }
 
 .picture--who-we-are {
-  margin: 2.9em 0;
+  margin-right: 2.9em;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -52,11 +53,11 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .nav {
+  /* .nav {
     padding: 0.625em;
     font-size: 1.5em;
   }
   .article {
     width: 100%;
-  }
+  } */
 }

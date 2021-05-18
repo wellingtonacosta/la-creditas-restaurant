@@ -33,3 +33,18 @@
 .span--red {
   color: #f55154;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url(../../image/parallax2.png);
+
+  /* Full height */
+  height: 90%;
+
+  /* Create the parallax scrolling effect */
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
