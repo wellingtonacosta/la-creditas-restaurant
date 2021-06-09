@@ -1,0 +1,79 @@
+{
+    "meals": [
+      {
+        "id": 0,
+        "name": "QUESADILLAS",
+        "description": " Nossas incomparáveis tortillas caseiras tostadas e recheadas com queijo derretido e pico de gallo. Acompanha guacamole.",
+        "image": "image.png"
+      },
+      {
+        "id": 1,
+        "name": "FAJITAS",
+        "description": "Um dos mais tradicionais pratos da culinária TEX-MEX! Escolha os recheios, monte seus tacos e desfrute dessa delícia. As fajitas são servidas com nachos, tortillas, frijoles, guacamole, molho sour mex e pico de gallo.",
+        "image": "image1.png"
+      },
+      {
+        "id": 2,
+        "name": "LOS 3 AMIGOS",
+        "description": "2 Tacos de chili con carne 2 burritos de machaca (Carne Assada Desfiada) 2 enchiladas de frango com cheddar Acompanham frijoles, nachos, guacamole e onion crisps.",
+        "image": "image2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "BURRITOS",
+        "description": "Burrito recheado com alface, pico de gallo, sour cream, queijo e guacamole. Acompanha salsa da casa.",
+        "image": "image3.png"
+      },
+      {
+        "id": 4,
+        "name": "CRUNCH TACOS",
+        "description": "3 deliciosos tacos montados na tortilla crocante de milho, com queijo, alface, pico de gallo e servidos com a nossa guacamole.",
+        "image": "image4.png"
+      },
+      {
+        "id": 5,
+        "name": "TIJUANA TACOS",
+        "description": "3 tacos recheados com carne grelhada, bacon, queijo, onion crisps e pico de gallo. Acompanha nossa maionese. ",
+        "image": "image2.jpg"
+      },
+      {
+        "id": 6,
+        "name": "LA BUENA ONDA",
+        "description": "2 Tacos de chili con carne 2 burritos de machaca (Carne Assada Desfiada) 2 enchiladas de frango com cheddar Acompanham frijoles, nachos, guacamole e onion crisps.",
+        "image": "image2.jpg"
+      },
+      {
+        "id": 7,
+        "name": "LOS 3 AMIGOS",
+        "description": "1 quesadilla com recheio à sua escolha: Queijo, frango marinado, pulled pork ou machaca (Carne Assada Desfiada) 4 taquitos de machaca (Carne Assada Desfiada) 4 tostaditas de frango marinado Acompanham frijoles, nachos, jalapeño e salsa da casa.",
+        "image": "image6.jpg"
+      },
+      {
+        "id": 8,
+        "name": "COMBO DEL MAR",
+        "description": "2 Tacos California (peixe empanado, alface, guacamole, sour cream, repolho, cebola roxa e pico de gallo) 4 Tostaditas de camarão com guacamole 4 pedaços de quesadilla de queijo Acompanha salsa da casa.",
+        "image": "image7.jpg"
+      },
+      {
+        "id": 9,
+        "name": "LA FRONTERA",
+        "description": "Os dois lados da fronteira em um delicioso combo. LADO TEX: 4 mini burgers, batatas chips, onion crisps e molho barbecue. LADO MEX: 4 Chili tacos, nachos, jalapeño e guacamole.",
+        "image": "image8.jpg"
+      }
+    ],
+    "pages": [
+      {
+        "name": "home",
+        "id": [0, 1, 2]
+      },
+      {
+        "name": "individual",
+        "id": [3, 4, 5, 0]
+      },
+      {
+        "name": "premium",
+        "id": [2, 6, 8, 9]
+      }
+    ]
+  }
+  

@@ -35,57 +35,10 @@
     <main class="main main--individual">
       <section class="section section--individual">
         <h1 class="main__title">Individuais</h1>
-        <article class="article article--individual">
-          <div>
-            <h2 class="article_title">BURRITOS</h2>
-            <p class="article__desc"> Burrito recheado com alface, pico de gallo, sour cream, queijo e guacamole. Acompanha salsa da casa. </p>
-            <a class="article__link" href="#">Leia Mais</a>
-          </div>
-
-          <picture class="article__picture">
-            <source srcset="image/image3.png" />
-            <img src="/image/imag3.png" alt="prato de comida mexicana" />
-          </picture>
-        </article>
-
-        <article class="article article--individual">
-          <div>
-            <h2 class="article__title">CRUNCH TACOS</h2>
-            <p class="article__desc"> 3 deliciosos tacos montados na tortilla crocante de milho, com queijo, alface, pico de gallo e servidos com a nossa guacamole. </p>
-            <a class="article__link" href="#">Leia Mais</a>
-          </div>
-
-          <picture class="article__picture">
-            <source srcset="image/image4.png" />
-            <img src="/image/image4.png" alt="prato de comida mexicana" />
-          </picture>
-        </article>
-
-        <article class="article article--individual">
-          <div>
-            <h2 class="article__title">TIJUANA TACOS</h2>
-            <p class="article__desc"> 3 tacos recheados com carne grelhada, bacon, queijo, onion crisps e pico de gallo. Acompanha nossa maionese. </p>
-            <a class="article__link" href="#">Leia Mais</a>
-          </div>
-
-          <picture class="article__picture">
-            <source srcset="image/image5.jpg" />
-            <img src="/image/image5.jpg" alt="prato de comida mexicana" />
-          </picture>
-        </article>
-
-        <article class="article article--individual">
-          <div>
-            <h2 class="article__title">QUESADILLAS</h2>
-            <p class="article__desc"> Nossas incomparáveis tortillas caseiras tostadas e recheadas com queijo derretido e pico de gallo. Acompanha guacamole. </p>
-            <a class="article__link" href="#">Leia Mais</a>
-          </div>
-
-          <picture class="article__picture">
-            <source srcset="image/image.png" />
-            <img src="/image/image.png" alt="prato de comida mexicana" />
-          </picture>
-        </article>
+        <div class="loader">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
       </section>
 
       <aside class="aside">
@@ -103,5 +56,9 @@
     </main>
 
     <footer class="footer">Todos os direitos reservados</footer>
+    <script src="api.js"></script>
+    <script>
+      fetchPage("individual");
+    </script>
   </body>
 </html>
