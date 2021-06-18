@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
   </head>
   <body>
-
     <header class="header">
       <div class="hamburger">
         <span class="bar"></span>
@@ -53,24 +52,36 @@
         <aside class="aside__form">
           <h3 class="form__desc">Preencha nosso formulário <br />para receber nossas ofertas</h3>
 
-          <form class="form">
+          <form class="form" onsubmit="submitForm(event)">
             <fieldset>
               <div class="form--label">
-                <div>
-                  <label for="name">Nome:</label>
-                  <input type="text" name="name" id="name" />
+                <div class="input-container">
+                  <label class="input-label" for="name">Nome:</label>
+                  <input required type="text" name="name" id="name" class="input" data-tipo="nome" autocomplete="off" />
+                  <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
 
-                <div>
-                  <label for="email">Email:</label>
-                  <input type="text" name="email" id="email" />
+                <div class="input-container">
+                  <label class="input-label" for="email">Email:</label>
+                  <input
+                    required
+                    type="email"
+                    name="email"
+                    class="input"
+                    id="email"
+                    data-tipo="email"
+                    autocomplete="off"
+                    title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos"
+                  />
+                  <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
 
-                <div>
-                  <label for="message">Mensagem:</label>
-                  <textarea name="message" rows="10" cols="100" id="message"></textarea>
-                  <button class="button" type="submit" name="button" value="button" id="message">Enviar</button>
+                <div class="input-container">
+                  <label class="input-label" for="message">CPF:</label>
+                  <input required type="text" name="cpf" class="input" id="cpf" data-tipo="cpf" autocomplete="off" />
+                  <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
+                <button class="button" type="submit" name="button" value="button" id="button">Enviar</button>
               </div>
             </fieldset>
           </form>
@@ -78,5 +89,8 @@
       </div>
     </main>
     <footer class="footer"> Todos os direitos reservados </footer>
+    <script src="form.js"></script>
+    <script src="./validation-app.js"></script>
+    <script src="validation.js"></script>
   </body>
 </html>

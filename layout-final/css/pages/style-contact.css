@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
 }
+
 .main--contact {
   background-color: #212121;
   flex-direction: column;
@@ -28,14 +29,40 @@ body {
 
 /* Form */
 
-label {
-  font-weight: bold;
+fieldset {
+  padding: 0.5em;
 }
 
-textarea {
-  max-width: 21.5em;
-  max-height: 11.25em;
+label {
+  font-weight: bold;
+  color: #c9d1d1;
 }
+
+input,
+button {
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  outline: none;
+}
+
+
+.input-container--invalido .input-label {
+  color:#f55154;
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+    color:#f55154;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
 
 .button {
   border: none;
