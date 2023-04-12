@@ -1,7 +1,8 @@
-const fetchPage = (page) => {
-  const url = `https://mockbin.org/bin/78426180-0f1e-41bf-98ee-29c320d6273d`;
+const fetchPage = async (page) => {
+   const url =  `https://mockbin.org/bin/b74c94e0-9553-4e39-b3ec-8e3e7f5d2079`;
+  
 
-  return fetch(url)
+  return await fetch(url)
     .then((response) => {
       return response.json();
     })
@@ -14,10 +15,10 @@ const fetchPage = (page) => {
     });
 };
 
-const fetchMeals = (ids) => {
-  const url = `https://mockbin.org/bin/78426180-0f1e-41bf-98ee-29c320d6273d`;
+const fetchMeals = async (ids) => {
+  const url = `https://mockbin.org/bin/b74c94e0-9553-4e39-b3ec-8e3e7f5d2079`;
 
-  return fetch(url)
+  return await fetch(url)
     .then((response) => {
       return response.json();
     })
